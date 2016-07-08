@@ -1,0 +1,15 @@
+body {
+    font-family: 'PT Serif', serif;
+    font-size: 15px;
+}
+
+.page-header {
+    border-bottom-width: medium;
+    border-bottom-color: cadetblue;
+    padding-top: 0;
+    display: block;
+}
+
+#main-header {
+    margin: 0;
+}
