@@ -1,6 +1,7 @@
-body {
+.container-fluid {
     font-family: 'PT Serif', serif;
-    font-size: 15px;
+    font-size: 13px;
+    border: none;
 }
 
 .page-header {
@@ -10,6 +11,48 @@ body {
     display: block;
 }
 
+.page-header.h2 {
+    font-size: 20px;
+}
+
+kbd {
+    color: burlywood;
+}
+
 #main-header {
     margin: 0;
+}
+
+.panel {
+    border: none;
+    box-shadow: none;
+    margin-bottom: 3px;
+    padding-bottom: 3px;
+}
+
+.panel-body {
+    border: none;
+    margin-bottom: 3px;
+    padding-bottom: 3px;
+}
+
+.panel-header {
+    margin: 3px;
+    padding: 3px;
+    background-color: lightgrey;
+    border: none;
+}
+
+.table {
+    font-size: inherit;
+}
+
+.chip {
+    display: inline-block;
+    padding: 0 10px;
+    height: auto;
+    margin: 2px;
+    line-height: 25px;
+    border-radius: 20px;
+    background-color: #D1D7D4;
 }
